@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victor Bomfim Nunes - Desenvolvedor Back-end</title>
+    <title>Victor Bomfim Nunes - Desenvolvedor Full Stack</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +23,15 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        .skill-tag {
+            display: inline-block;
+            background-color: #374151; /* bg-slate-700 */
+            border-radius: 9999px; /* rounded-full */
+            padding: 0.25rem 0.75rem; /* px-3 py-1 */
+            font-size: 0.875rem; /* text-sm */
+            font-weight: 600; /* font-semibold */
+            color: #d1d5db; /* text-slate-300 */
+        }
     </style>
 </head>
 <body class="text-gray-200">
@@ -41,9 +50,9 @@
             <!-- Informações -->
             <div>
                 <h1 class="text-4xl md:text-5xl font-extrabold text-white">Victor Bomfim Nunes</h1>
-                <p class="mt-2 text-xl md:text-2xl font-medium section-title">Desenvolvedor Back-end</p>
+                <p class="mt-2 text-xl md:text-2xl font-medium section-title">Desenvolvedor de Software Full Stack</p>
                 <p class="mt-4 text-slate-400 max-w-xl">
-                    Especialista na criação de sistemas robustos e escaláveis, com foco em performance e segurança. Apaixonado por resolver problemas complexos e transformar ideias em soluções de software eficientes.
+                    Com mais de 13 anos de experiência em .Net e C#, sou um desenvolvedor Full Stack com sólida atuação no setor financeiro, além de vivência nos setores de jogos digitais e varejo.
                 </p>
                  <div class="mt-6 flex gap-4">
                     <a href="#" class="text-sky-400 hover:text-sky-300 transition duration-300">LinkedIn</a>
@@ -54,36 +63,82 @@
         </header>
 
         <main>
+             <!-- Seção Sobre Mim & Habilidades -->
+            <section id="about" class="mb-16 sm:mb-24">
+                <h2 class="text-3xl font-bold mb-8 section-title">Sobre Mim & Habilidades</h2>
+                <div class="p-6 rounded-lg glass-effect">
+                    <p class="text-slate-300 mb-6">
+                        Procuro identificar melhorias de performance nas aplicações, em processos e inovações, e realizar refatorações para melhorar a manutenibilidade da aplicação, sempre desenvolvendo com boas práticas de programação e um código limpo, de fácil entendimento.
+                    </p>
+                    <h3 class="text-xl font-bold text-white mb-4">Principais Competências:</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag">.NET (1.1 ao .NET 6)</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">ASP.NET / Web Forms</span>
+                        <span class="skill-tag">APIs REST</span>
+                        <span class="skill-tag">WCF</span>
+                        <span class="skill-tag">Microsserviços</span>
+                        <span class="skill-tag">SOLID</span>
+                        <span class="skill-tag">Entity Framework</span>
+                        <span class="skill-tag">Dapper</span>
+                        <span class="skill-tag">Mensageria (IBM MQ & RabbitMQ)</span>
+                        <span class="skill-tag">SQL Server</span>
+                        <span class="skill-tag">Oracle</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">HTML5 & CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Testes (MSTEST, XUNIT, Specflow)</span>
+                        <span class="skill-tag">CI/CD (Jenkins, Urbancode)</span>
+                        <span class="skill-tag">Git (GitHub, Bitbucket)</span>
+                    </div>
+                </div>
+            </section>
+
             <!-- Seção de Histórico Profissional -->
             <section id="experience" class="mb-16 sm:mb-24">
                 <h2 class="text-3xl font-bold mb-8 section-title">Histórico Profissional</h2>
                 <div class="space-y-10">
-                    <!-- Item de Experiência 1 -->
                     <div class="p-6 rounded-lg glass-effect transition-all duration-300 hover:border-slate-500">
                         <div class="flex justify-between items-start">
-                            <h3 class="text-xl font-bold text-white">Desenvolvedor de Software Sênior</h3>
-                            <span class="text-sm font-medium text-slate-400">2021 - Presente</span>
+                            <h3 class="text-xl font-bold text-white">.NET Developer - Tech Lead</h3>
+                            <span class="text-sm font-medium text-slate-400">Mar 2016 - Out 2022</span>
                         </div>
-                        <p class="text-md text-slate-300 mt-1">Tech Solutions Inc.</p>
-                        <ul class="mt-4 list-disc list-inside text-slate-400 space-y-2">
-                            <li>Liderei o desenvolvimento da arquitetura de microsserviços para uma nova plataforma de e-commerce.</li>
-                            <li>Desenvolvi e mantive APIs RESTful robustas utilizando Java com Spring Boot.</li>
-                            <li>Otimizei consultas em bancos de dados PostgreSQL, resultando em uma melhoria de 30% na performance.</li>
-                            <li>Implementei pipelines de CI/CD com Jenkins e Docker, automatizando o processo de deploy.</li>
-                        </ul>
+                        <p class="text-md text-slate-300 mt-1">Banese - Banco do Estado de Sergipe</p>
                     </div>
-                    <!-- Item de Experiência 2 -->
                     <div class="p-6 rounded-lg glass-effect transition-all duration-300 hover:border-slate-500">
                         <div class="flex justify-between items-start">
-                            <h3 class="text-xl font-bold text-white">Engenheiro de Software Pleno</h3>
-                            <span class="text-sm font-medium text-slate-400">2018 - 2021</span>
+                            <h3 class="text-xl font-bold text-white">Analista de Sistemas</h3>
+                            <span class="text-sm font-medium text-slate-400">Out 2015 - Fev 2016</span>
                         </div>
-                        <p class="text-md text-slate-300 mt-1">Inova Sistemas</p>
-                        <ul class="mt-4 list-disc list-inside text-slate-400 space-y-2">
-                            <li>Desenvolvimento de funcionalidades para um sistema de gestão financeira (ERP) com Python e Django.</li>
-                            <li>Integração com serviços de terceiros, como gateways de pagamento e sistemas de nota fiscal.</li>
-                            <li>Participei da migração de um sistema monolítico para uma arquitetura orientada a serviços.</li>
-                        </ul>
+                        <p class="text-md text-slate-300 mt-1">Universidade Federal de Sergipe - UFS</p>
+                    </div>
+                    <div class="p-6 rounded-lg glass-effect transition-all duration-300 hover:border-slate-500">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-xl font-bold text-white">Game Developer</h3>
+                            <span class="text-sm font-medium text-slate-400">Jul 2015 - Ago 2015</span>
+                        </div>
+                        <p class="text-md text-slate-300 mt-1">Eurekamob</p>
+                    </div>
+                    <div class="p-6 rounded-lg glass-effect transition-all duration-300 hover:border-slate-500">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-xl font-bold text-white">.Net Developer Pleno</h3>
+                            <span class="text-sm font-medium text-slate-400">Jan 2015 - Mar 2015</span>
+                        </div>
+                        <p class="text-md text-slate-300 mt-1">Vortex</p>
+                    </div>
+                    <div class="p-6 rounded-lg glass-effect transition-all duration-300 hover:border-slate-500">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-xl font-bold text-white">Desenvolvedor .Net Pleno</h3>
+                            <span class="text-sm font-medium text-slate-400">Fev 2014 - Jan 2015</span>
+                        </div>
+                        <p class="text-md text-slate-300 mt-1">Aceso - Cartões e Soluções de Pagamentos</p>
+                    </div>
+                    <div class="p-6 rounded-lg glass-effect transition-all duration-300 hover:border-slate-500">
+                        <div class="flex justify-between items-start">
+                            <h3 class="text-xl font-bold text-white">Analista Desenvolvedor .Net</h3>
+                            <span class="text-sm font-medium text-slate-400">Fev 2013 - Fev 2014</span>
+                        </div>
+                        <p class="text-md text-slate-300 mt-1">FCamara Consulting & Training</p>
                     </div>
                 </div>
             </section>
@@ -109,27 +164,26 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <!-- Projeto 1 -->
                     <div class="p-6 rounded-lg glass-effect flex flex-col group transition-all duration-300 hover:border-sky-400">
-                        <h3 class="text-xl font-bold text-white">API de Gerenciamento de Tarefas</h3>
+                        <h3 class="text-xl font-bold text-white">API para Sistema Financeiro</h3>
                         <p class="mt-2 text-slate-400 flex-grow">
-                            Uma API RESTful completa para criar, ler, atualizar e deletar tarefas, com autenticação de usuário via JWT.
+                            API RESTful de alta performance para um sistema financeiro, implementando endpoints para transações, contas e autenticação de clientes.
                         </p>
                         <div class="mt-4">
-                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">Node.js</span>
-                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">Express</span>
-                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">MongoDB</span>
-                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">JWT</span>
+                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">.NET 6</span>
+                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">ASP.NET Core</span>
+                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">Entity Framework</span>
+                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">SQL Server</span>
                         </div>
                         <a href="#" class="mt-4 text-sky-400 font-semibold opacity-0 group-hover:opacity-100 transition-opacity">Ver no GitHub &rarr;</a>
                     </div>
                     <!-- Projeto 2 -->
                     <div class="p-6 rounded-lg glass-effect flex flex-col group transition-all duration-300 hover:border-sky-400">
-                        <h3 class="text-xl font-bold text-white">Sistema de Filas com RabbitMQ</h3>
+                        <h3 class="text-xl font-bold text-white">Microsserviço de Notificações</h3>
                         <p class="mt-2 text-slate-400 flex-grow">
-                            Microsserviço para processamento assíncrono de e-mails em segundo plano, garantindo que o sistema principal não seja bloqueado.
+                            Serviço de mensageria para processamento assíncrono de notificações (email, SMS), desacoplando a funcionalidade do sistema principal.
                         </p>
                         <div class="mt-4">
-                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">Python</span>
-                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">Flask</span>
+                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">.NET Core</span>
                             <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">RabbitMQ</span>
                             <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">Docker</span>
                         </div>
@@ -137,14 +191,15 @@
                     </div>
                      <!-- Projeto 3 -->
                     <div class="p-6 rounded-lg glass-effect flex flex-col group transition-all duration-300 hover:border-sky-400">
-                        <h3 class="text-xl font-bold text-white">Web Scraper de Notícias</h3>
+                        <h3 class="text-xl font-bold text-white">Aplicação Web de Varejo</h3>
                         <p class="mt-2 text-slate-400 flex-grow">
-                            Aplicação que coleta e armazena as principais notícias de portais de tecnologia, expondo os dados através de uma API.
+                            Aplicação Web completa para um e-commerce de varejo, construída com padrão MVC, com áreas para clientes e administração de produtos.
                         </p>
                         <div class="mt-4">
-                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">Go</span>
-                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">Colly</span>
-                             <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">SQLite</span>
+                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">ASP.NET MVC</span>
+                            <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">C#</span>
+                             <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">Bootstrap</span>
+                             <span class="inline-block bg-slate-700 rounded-full px-3 py-1 text-sm font-semibold text-slate-300 mr-2 mb-2">Dapper</span>
                         </div>
                         <a href="#" class="mt-4 text-sky-400 font-semibold opacity-0 group-hover:opacity-100 transition-opacity">Ver no GitHub &rarr;</a>
                     </div>
@@ -161,3 +216,4 @@
 
 </body>
 </html>
+
